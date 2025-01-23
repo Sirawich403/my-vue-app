@@ -3,5 +3,6 @@ services:
     name: my-vue-app
     env: static
     buildCommand: "npm run build"
-    startCommand: "npm run start"  # เปลี่ยนเป็น npm run start
+    startCommand: "vite preview"  # ใช้ vite preview
     repo: https://github.com/Sirawich403/my-vue-app
+    publishPath: dist           # ระบุ publishPath
