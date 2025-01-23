@@ -3,6 +3,5 @@ services:
     name: my-vue-app
     env: static
     buildCommand: "npm run build"
-    startCommand: "npm run start"
+    startCommand: "npm run start"  # เปลี่ยนเป็น npm run start
     repo: https://github.com/Sirawich403/my-vue-app
-    publishPath: dist   # เพิ่มบรรทัดนี้
