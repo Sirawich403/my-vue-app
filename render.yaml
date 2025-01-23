@@ -3,5 +3,5 @@ services:
     name: my-vue-app
     env: static
     buildCommand: "npm run build"
-    startCommand: "npm run preview"
+    startCommand: "npm run preview"  #  หรือ  "vite preview"
     repo: https://github.com/Sirawich403/my-vue-app
