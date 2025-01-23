@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-vue-app  # เปลี่ยนชื่อนี้เป็นชื่อที่คุณต้องการ
+    env: static
+    buildCommand: "npm run build" 
+    startCommand: "npm run start"
+    repo: https://github.com/Sirawich403/my-vue-app  # เปลี่ยนเป็น URL ของ repository ของคุณ
