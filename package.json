@@ -3,9 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "./",  // เพิ่มบรรทัดนี้
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vue-tsc && vite build --base=/", // แก้ไขบรรทัดนี้
     "preview": "vite preview",
     "test": "vitest"
   },
